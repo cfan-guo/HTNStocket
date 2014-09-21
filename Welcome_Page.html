@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Stocket</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--Link to Bootstrap CSS-->
+    <link href = "bootstrap.css" rel = "stylesheet" type = "text/css">
+<!--Link to used Google Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Maiden+Orange|Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<!--Link to FontAwesome fonts-->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type = 'text/css'>
+<!--Link to main.css-->
+    <link href = "main.css" rel = "stylesheet" type= "text/css">
+<!--JS/JQ Things for Skrollr-->
+    <script type="text/javascript" src="maindisplay/static/js/skrollr.min.js"></script>
+    <script type="text/javascript" src="maindisplay/static/js/skrollr.menu.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+<!--Linking to Bootstrap CDN for JS-->
+    <script src = "bootstrap.css"></script>
+<!--Make everything center-aligned-->
+    <div class = "centred-text">
+        
+<!--THIS IS THE FIRST FULL VIEWSCREEN WHICH IS PROMPTING THE USER FOR A COMPANY TO FOLLOW-->    
+    <div class = "view-1" id="Page1">
+        <div class = "container view-1">
+        <div class = "row">
+            <div class = "col-md-12">
+                <h1 class = "h1_font"><span style = "font-family:Open Sans Condensed">Welcome to <span style = "font-family: Maiden Orange">Stocket</span>.</span></h1>
+               
+            </div>
+        </div>
+<!--Prompt user for input (stock name), save input-->
+    <form action = "CONNOR AND AIDAN DO SHIT HERE PLEASEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE.asp" method = "get">
+        <div class="input-group input-group-lg view-1">
+        <span class="input-group-addon view-1"> <i class = "fa fa-line-chart"></i></span>
+        <input type="text" class="form-control" placeholder="Enter the stock ticker symbol" name = "stockticker">
+        </div>
+            
+        <br>
+
+        <br>
+<!--Button for continuation-->
+        <p><a href = "#Page2"><button class="btn btn-default btn-lg button-submit view-1" role = "button">Continue</button></a></p>
+    </div>
+        </div>
+        
+        
+        
+        
+<!--THIS IS THE SECOND FULL VIEWSCREEN WHICH IS PROMPTING THE USER FOR TWITTER HANDLES AND TAGS-->    
+    <div class = "container view-2" id = "Page2">
+        <div class = "view-2">
+<!--Button from previous page links to this section-->
+            <a class = "page-link" ><h1 class = "view-2"><span style = "font-family: Open Sans Condensed">Follow the <span style = "font-family: Maiden Orange">figures you trust</span>, and track the <span style = "font-family: Maiden Orange">figures you need</span>.</h1></a>
+    <h3><span style = "font-family: Open Sans Condensed">See relevant tweets integrated in real-time with stock data.</span></h3>
+<br>
+<!--Five rows that exist lololol-->
+    <div class = "form-pad view-2">
+
+<!--First one-->   
+        <div class = "row">
+        <div class="input-group handle">
+        <span class="input-group-addon view-2">@</span>
+        <input type="text" class="form-control" placeholder="Who do you want to follow?" name = "user1">
+        </div>
+        <div class="input-group terms">
+        <span class="input-group-addon view-2">#</span>
+        <input type="text" class="form-control" placeholder="What terms do you want to track?" name = "tag1">
+        </div>
+        </div>
+    <br>
+<!--Second one that exists-->    
+        <div class = "row">
+        <div class="input-group handle">
+        <span class="input-group-addon view-2">@</span>
+        <input type="text" class="form-control" name = "user2">
+        </div>
+        <div class="input-group terms">
+        <span class="input-group-addon view-2">#</span>
+        <input type="text" class="form-control" name = "tag2">
+        </div>
+        </div>
+    <br>
+<!--Third one ugh-->
+        <div class = "row">
+        <div class="input-group handle">
+        <span class="input-group-addon view-2">@</span>
+        <input type="text" class="form-control" name = "user3">
+        </div>
+        <div class="input-group terms">
+        <span class="input-group-addon view-2">#</span>
+        <input type="text" class="form-control" name = "tag3">
+        </div>
+        </div>
+    <br>
+<!--Fourth one-->
+        <div class = "row">
+        <div class="input-group handle">
+        <span class="input-group-addon view-2">@</span>
+        <input type="text" class="form-control" name = "user4">
+        </div>
+        <div class="input-group terms">
+        <span class="input-group-addon view-2">#</span>
+        <input type="text" class="form-control" name = "tag4">
+        </div>
+        </div>
+    <br>
+<!--Last one I s2g-->
+        <div class = "row">
+        <div class="input-group handle">
+        <span class="input-group-addon view-2">@</span>
+    <input type="text" class="form-control" name = "user5">
+        </div>
+        <div class="input-group terms">
+        <span class="input-group-addon view-2">#</span>
+        <input type="text" class="form-control" name = "tag5">
+        </div>
+        </div>
+        
+    </div>
+</div>
+<br>
+<br>
+<!--Button for submission-->
+                <p><a href = "#Page3" class = "button-submit"><button type = "submit" value = "Submit" class="btn btn-default btn-lg view-2 button-submit" role = "button">Let's go!</button></a></p>
+</form>
+</div>
+    
+
+        
+        
+        
+<!--THIS IS THE THIRD FULL VIEWSCREEN WHICH IS THE GRAPH-->    
+    <div class = "container view-3">
+        <div class = "view-3">
+            <div class = "graph-padding view-3">
+            <a id = "Page3" class = "view-3"><h2 style = "font-family: Open Sans Condensed" class = "view-3">Et voila.</h2></a>
+        
+<!--Display graph and info here-->
+<!--Display key in halves below graph-->
+<!--How to designate specific colours corresponding to tweet origins???-->
+<!--Check out flatuicolors-->
+    </div>
+        </div>
+        </div>
+
+<!--About icon thing here woohoo-->
+        <div class = "abouticon"><a href = "index.html" class = "abouticon"><i class = "fa fa-lightbulb-o"></i></a></div>
+        </div>
+<!--Scroll up icon thing-->
+        <div class = "upicon"><a href = "#Page1" class = "upicon"><i class = "fa fa-angle-double-up"></i></a></div>
+        </div>
+        
+        
+<!--Script thing for Skrollr-->        
+        <script>
+        var s = skrollr.init(/*other stuff*/);
+
+        //The options (second parameter) are all optional. The values shown are the default values.
+        skrollr.menu.init(s, {
+            //skrollr will smoothly animate to the new position using `animateTo`.
+            animate: true,
+
+            //The easing function to use.
+            easing: 'sqrt',
+
+            //Multiply your data-[offset] values so they match those set in skrollr.init
+            scale: 2,
+
+            //How long the animation should take in ms.
+            duration: function(currentTop, targetTop) {
+                //By default, the duration is hardcoded at 500ms.
+                return 500;
+
+                //But you could calculate a value based on the current scroll position (`currentTop`) and the target scroll position (`targetTop`).
+                //return Math.abs(currentTop - targetTop) * 10;
+            },
+
+            //If you pass a handleLink function you'll disable `data-menu-top` and `data-menu-offset`.
+            //You are in control where skrollr will scroll to. You get the clicked link as a parameter and are expected to return a number.
+
+        });
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                function setHeight (){
+                    windowHeight = $(window).innerHeight();
+                    $('.container').css('height',windowHeight); 
+                };
+                setHeight();
+                $(window).resize(function (){
+                    setHeight();
+                });
+            });     
+        </script>
+</body>
+</html>

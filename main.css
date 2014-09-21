@@ -1,0 +1,282 @@
+body {
+    overflow: hidden
+}
+/*Prevents Span Text from being highlighted */
+span {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+/*For the intro page, section 1*/
+
+.tagline{
+    font-size: 70px;
+}
+
+.imageA{
+    margin: 2%;
+}
+
+.imageB{
+    margin: 2%;
+}
+
+.paragraph{
+    align-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 1%;
+}
+
+.btn.section_1_btn{
+    font-family: Open Sans Condensed;
+    border-color: white;
+    background-color: #34495e;
+    color: white;
+}
+
+.btn.section_1_btn:hover{
+    background-color: #2c3e50;
+    border-color: white;
+    color: white;
+}
+
+.section_1_intro{
+    background-color: #ecf0f1;
+    padding-bottom: 1%;
+} 
+
+/*For the intro page, section 2*/
+.circular_img {
+    border-radius: 100%;
+}
+
+.section_2_profiles {
+    background-color: #2c3e50;
+    padding-bottom: 1%;
+}
+
+h2.team {
+    padding-top: 1%;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.row.members {
+    color: white;
+    font-family: Open Sans Condensed;
+    font-size: 18px;
+}
+
+/*For the Welcome Page, section 1*/
+html, body{
+    height:100%;
+}
+
+.container{
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+a:link.abouticon{
+    color: black;
+}
+a:hover.abouticon{
+    color: black;
+}
+.abouticon{
+    position: fixed;
+    padding: 0px 17px 0px 17px; 
+    border-radius:100%;
+    border-color: black;
+    background-color: white;
+    font-size: 40px;
+    top: 5px;
+    right: 70px;
+    color: black;
+    padding: 5 5 5 5;
+}
+a:link.upicon{
+    color: black;
+}
+a:hover.upicon{
+    color: black;
+    title: "To the top of the page";
+}
+.upicon{
+    position: fixed;
+    padding: 0px 17px 0px 17px; 
+    border-radius:100%;
+    border-color: black;
+    background-color: white;
+    font-size: 40px;
+    top: 5px;
+    right: 5px;
+    color: black;
+    padding: 5 5 5 5;
+}
+
+.container.view-1{
+    padding-bottom: 15%;
+    background-color: #2ecc71;
+    text-align: center;
+    padding-top:5%;
+    height:100%;
+}
+.h1_font{
+    padding-bottom: 2%;
+    color: white;
+    font-size: 100px;
+}
+
+.input-group{
+    font-family: Open Sans Condensed;
+    border-color: white;
+}
+.input-group.view-1{
+    text-align: center;
+    padding-right:25%;
+    padding-left: 25%;
+}
+.input-group-addon.view-1 {
+    color: white;
+    border-color: white;
+    background-color: #2ecc71;
+}
+.btn{
+    font-family: Open Sans Condensed;
+    border-color: white;
+    background-color: #2ecc71;
+    color: white;
+}
+.btn:hover{
+    background-color: #27ae60;
+    border-color: white;
+    color: white;
+}
+
+.btn-default.view-1 {
+    color: white;
+    background-color: #2ecc71;
+    border-color: white;
+}
+    
+/*For the file entry, section 2*/
+h1.view-2{
+    color:black;
+}
+a:link.page-link{
+    color:#000000;
+    text-decoration: none;
+}
+a:visited.page-link{
+    color:#000000;
+    text-decoration: none;
+}
+a:hover.page-link{
+    color:#000000;
+    text-decoration: none;
+}
+a:active.page-link{
+    color:#000000;
+    text-decoration: none;
+}
+.container.view-2{
+    padding-bottom: 10%;
+    background-color: #1abc9c;
+}
+h1.view-2{
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+.form-pad.view-2{
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.input-group.handle{
+    width:33%;
+    float: left;
+    margin-right: 1%;
+}
+.input-group.terms{
+    width:66%;
+    display: 
+}
+
+.input-group-addon.view-2 {
+    color: black;
+    border-color: black;
+    background-color: #1abc9c;
+}
+.btn.view-2{
+    border-color:black;
+    color:black;
+}
+.btn:hover.view-2{
+    background-color:#16a085;
+}
+
+.btn-default.view-2 {
+    color: black;
+    background-color: #1abc9c;
+    border-color: black;
+}
+
+a:link.button-submit.view-2{
+    color:#000000;
+    text-decoration: none;
+}
+a:visited.button-submit.view-2{
+    color:#000000;
+    text-decoration: none;
+}
+a:hover.button-submit.view-2{
+    color:#000000;
+    text-decoration: none;
+}
+a:active.button-submit.view-2{
+    color:#000000;
+    text-decoration: none;
+}
+
+/*For the graph, section 3*/
+h2.view-3{
+    text-align: center;
+    color: #2ecc71;
+}
+.graph-padding.view-3{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+a:link.view-3{
+    color:#2ecc71;
+    text-decoration: none;
+}
+a:visited.view-3{
+    color:#2ecc71;
+    text-decoration: none;
+}
+a:hover.view-3{
+    color:#2ecc71;
+    text-decoration: none;
+}
+a:active.view-3{
+    color:#2ecc71;
+    text-decoration: none;
+}
+
+
+/*Responsiveness shizzle*/
+@viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
